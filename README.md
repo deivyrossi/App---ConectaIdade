@@ -1,16 +1,46 @@
-# React + Vite
+# 📱 Conecta Idade - Tecnologia Social Digital
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é um protótipo de **Tecnologia Social Digital** desenvolvido como parte do **Seminário II de Engenharia de Computação (CEFET-MG)**. 
 
-Currently, two official plugins are available:
+O objetivo da solução é promover a inclusão digital, o acesso a direitos e o monitoramento do bem-estar de idosos através de uma interface simplificada e acessível.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Objetivos do Projeto
+- **Inclusão Digital:** Interface adaptada (UI/UX) com botões grandes, alto contraste e linguagem simples.
+- **Gestão de Direitos:** Acesso rápido e fácil a informações sobre benefícios e legislação (Estatuto do Idoso).
+- **Engajamento Social:** Divulgação de eventos comunitários e oficinas para combater o isolamento.
+- **Segurança Passiva:** Funcionalidade de "Check-in de Bem-Estar" diário.
 
-## React Compiler
+##  Tecnologias Utilizadas
+- **[React.js](https://react.dev/)** (via Vite): Biblioteca para construção da interface.
+- **[Tailwind CSS v4](https://tailwindcss.com/)**: Framework de estilização "utility-first" moderno.
+- **[Lucide React](https://lucide.dev/)**: Biblioteca de ícones leves e acessíveis.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+##  Como rodar o projeto localmente
 
-## Expanding the ESLint configuration
+### Pré-requisitos
+Certifique-se de ter o **[Node.js](https://nodejs.org/)** (versão LTS recomendada) instalado em sua máquina.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Passo a Passo
+
+1. **Clone o repositório:**
+   ```bash
+   git clone [https://github.com/deivyrossi/App-ConectaIdade.git]
+   
+2. **Entre na pasta do projeto:**
+   ```bash
+   cd conecta-idade
+   
+3. **Instale as dependências**
+   ```bash
+   npm install
+
+4. **Inicie o ambiente de desenvolvimento**
+   ```bash
+   npm run dev
+   
+5. **Acesse o aplicativo:**
+   Abra o navegador no endereço indicado no terminal.
+
+
+##  Estrutura do projeto
+   
