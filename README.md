@@ -1,4 +1,4 @@
-# 📱 Conecta Idade - Tecnologia Social Digital
+#  Conecta Idade - Tecnologia Social Digital
 
 Este projeto é um protótipo de **Tecnologia Social Digital** desenvolvido como parte do **Seminário II de Engenharia de Computação (CEFET-MG)**. 
 
@@ -24,7 +24,7 @@ Certifique-se de ter o **[Node.js](https://nodejs.org/)** (versão LTS recomenda
 
 1. **Clone o repositório:**
    ```bash
-   git clone [https://github.com/deivyrossi/App-ConectaIdade.git]
+   git clone https://github.com/deivyrossi/App---ConectaIdade
    
 2. **Entre na pasta do projeto:**
    ```bash
@@ -43,4 +43,37 @@ Certifique-se de ter o **[Node.js](https://nodejs.org/)** (versão LTS recomenda
 
 
 ##  Estrutura do projeto
+```bash
+conecta-idade/
+├── src/
+│   ├── App.jsx          # Lógica principal, rotas e componentes da interface
+│   ├── main.jsx         # Ponto de entrada da aplicação React
+│   └── index.css        # Importação do Tailwind CSS (@import "tailwindcss";)
+├── index.html           # Arquivo HTML base
+├── package.json         # Dependências e scripts do projeto
+├── postcss.config.js    # Configuração do PostCSS (para Tailwind v4)
+└── vite.config.js       # Configuração do Vite
+```
+
+## Funcionalidades do Protótipo (MVP)
+
+**Tela Inicial (Dashboard):**
+
+ - Saudação personalizada.
+ - Check-in Diário: Botão de ação rápida e visual para o idoso confirmar que está bem ("Estou Bem!").
+
+**Meus Direitos:**
+
+- Lista de cards informativos sobre direitos (Transporte, Saúde, Prioridade).
+-  Botão simulado de "Ouvir Texto" para acessibilidade.
+
+**Atividades e Social:**
+
+- Agenda de eventos locais (Ginástica, Oficinas de Celular).
+- Informações claras de data, local e botão de confirmação de presença.
+
+**Emergência:**
+
+- Botões de discagem rápida com áreas de toque expandidas.
+- Contato direto com SAMU (192), Conselho do Idoso ou Familiares cadastrados.
    
