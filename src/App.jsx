@@ -39,7 +39,7 @@ const App = () => {
   ];
 
   const learningResources = [
-    { title: 'Como usar o WhatsApp', type: 'Vídeo rápido', action: () => window.open('https://www.youtube.com/watch?v=QG-lFge0X-0', '_blank') },
+    { title: 'Como usar o WhatsApp', type: 'Vídeo rápido', action: () => window.open('https://youtu.be/dR5PNZhaLzU?si=21KvGLwBFWmQsRxb', '_blank') },
     { title: 'Jogo de Memória', type: 'Jogo simples', action: () => window.open('https://matchthememory.com/', '_blank') },
     { title: 'Aprenda a pagar contas pelo app', type: 'Passo a passo', action: () => window.open('https://www.youtube.com/results?search_query=como+pagar+contas+app+banco', '_blank') },
   ];
@@ -353,7 +353,7 @@ const App = () => {
                 <MessageCircle size={28} /> Falar com Suporte da Família
               </button>
               <button
-                onClick={() => window.open('https://www.youtube.com/watch?v=EVEbzfrg3ik', '_blank')}
+                onClick={() => window.open('https://youtu.be/2MScVCBAMHw?si=ULM18d-W04zUAC-R', '_blank')}
                 className="bg-gray-900 text-white py-3 rounded-xl text-xl font-semibold"
               >
                 Ver vídeo: golpes mais comuns
